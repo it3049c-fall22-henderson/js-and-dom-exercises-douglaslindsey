@@ -7,6 +7,11 @@ class StringFunctions {
      * capitalize('HELLO WORLD') // 'Hello world'
      */
     capitalize(input) { 
+      function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      
+      console.log(capitalizeFirstLetter('foo')); // Foo
       return input; 
     }
     /**
@@ -17,7 +22,12 @@ class StringFunctions {
      * reverse('abc') // 'cba'
      */
     reverse(input) { 
-      return input;
+        array.reverse()
+        return str;
+    }
+    reverseString("") {
+      function reverseString(s){
+      return s.split("").reverse().join("");}
     }
     /**
      * Returns an array of the words in a string
@@ -27,6 +37,8 @@ class StringFunctions {
      * words('hello world') // ['hello', 'world']
      */
     split(input) { 
+      let text = "";
+      const myArray = text.split(" ");
       return [input];
     }
 }

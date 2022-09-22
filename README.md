@@ -2,10 +2,10 @@ JS and DOM Exercise
 ===================================
 ![Assignment Checks](https://github.com/IT3049C/JS-and-DOM-Exercises/workflows/Assignment%20Checks/badge.svg)
 
-Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/2.JavaScript_Exercises/).
+Instructions to this assignment can be found [here](https://it3049c.github.io/coursework/labs/js-and-dom-exercises/).
 
 ## Checklist:
-- [ ] update the assignment checks above to the correct link. - Done Automatically
+- [x] update the assignment checks above to the correct link. - Done Automatically
 - [ ] All Unit tests passed.
 - [ ] filled out the self-evaluation.
 - [ ] filled out the self-reflection.
