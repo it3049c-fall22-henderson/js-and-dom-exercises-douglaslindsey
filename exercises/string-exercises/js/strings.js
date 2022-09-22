@@ -12,7 +12,6 @@ class StringFunctions {
       }
       
       console.log(capitalizeFirstLetter('foo')); // Foo
-      return input; 
     }
     /**
      * Returns a reversed string. Example: "abc" => "cba"
