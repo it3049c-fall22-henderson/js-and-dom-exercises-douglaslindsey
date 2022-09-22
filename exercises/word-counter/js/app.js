@@ -5,6 +5,11 @@
 // 🤖: The event handler should update the stats section with the number of words and characters in the textarea input.
 // 🤖: You will need to utilize the split method to get the words count.
 
-addEventListener('input', (event) => {});
+const input = document.querySelector('input');
+const log = document.getElementById('values');
 
-oninput = (event) => { };
+input.addEventListener('input', updateValue);
+
+function updateValue(e) {
+  log.textContent = e.target.value;
+}
