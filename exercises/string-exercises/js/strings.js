@@ -24,7 +24,7 @@ class StringFunctions {
         array.reverse()
         return str;
     }
-    reverseString("") {
+    reverseString(input) {
       function reverseString(s){
       return s.split("").reverse().join("");}
     }

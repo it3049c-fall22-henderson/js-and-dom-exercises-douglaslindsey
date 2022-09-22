@@ -8,6 +8,7 @@ class ArrayFunctions {
    * indexOf([1,2,3,5,6], 3); // 2
    */
   indexOf(arr, item) {
+    arr.indexOf(item, start)
     return ;
   }
 
@@ -20,7 +21,9 @@ class ArrayFunctions {
    */
   sum(arr) {
     // Hint: use the reduce method
-    return ;
+    function getSum(total, num) {
+      return total + Math.round(num);
+    }
   }
 
   /**
@@ -33,7 +36,9 @@ class ArrayFunctions {
    * filter([1,2,3,5,6,2,4,2], 2); // [1,3,5,6,4]
    */
   filterOut(arr, item) {
-    return ;
+    var newarray = arr.filter(function(item) {
+      return condition;
+    });
   }
 
   /**
@@ -45,6 +50,9 @@ class ArrayFunctions {
    * append([1,2,3], 4); // [1,2,3,4]
    */
   append(arr, item) {
+    var arr = ["","",""];
+    arr.push("");
+    console.log(arr);
     // hint: push, slice, splice would all work. Pay attention to the return value in the docs
     return arr;
   }
@@ -58,7 +66,11 @@ class ArrayFunctions {
    * concat([1,2,3], [4,5,6]); // [1,2,3,4,5,6]
    */
   concat(arr1, arr2) {
-    return ;
+    const arr1 = ['a', 'b', 'c'];
+    const arr2 = ['d', 'e', 'f'];
+    const arr3 = array1.concat(array2);
+
+    console.log(array3);
   }
 
   /**
@@ -70,6 +82,10 @@ class ArrayFunctions {
    */
   square(arr) {
     // hint: use .map
-    return ;
+    function (arr) {
+      return arr.map(function (x) {
+        return Math.pow(x, 2);
+      });
+    }
   }
 }
